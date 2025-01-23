@@ -122,4 +122,5 @@ While the model performed well, future improvements could include:
 ## Contact
 For questions or collaboration, please reach out at:
 - **Email**: devin.shrode@proton.me
-- **LinkedIn**: (https://www.linkedin.com/in/devin-shrode-02260a9a?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B%2FKwPfPKCTdqNHiARD6995w%3D%3D)
+- **LinkedIn**: www.linkedin.com/in/DevinShrode
+
