@@ -100,6 +100,8 @@ jupyter notebook Obesity_Level_Estimation_Final.ipynb
 
 # Step 5: Run the notebook cells sequentially to reproduce the analysis and results
 
+---
+
 ## Future Work
 While the model performed well, future improvements could include:
 1. Expanding the dataset to include more diverse geographic regions.
