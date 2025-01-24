@@ -39,31 +39,36 @@ The dataset used in this project contains records from Mexico, Peru, and Colombi
 ---
 
 ## Workflow
-The project workflow is structured as follows:
 
-1. **Exploratory Data Analysis (EDA)**:
-   - Investigated data distributions, relationships, and potential issues.
-   - Identified class imbalances and applied SMOTE to address them.
+1. **Problem Understanding**:
+   - The goal was to predict obesity levels based on eating habits and physical condition using a multi-class classification approach.
 
-2. **Feature Engineering**:
-   - Scaled numerical features for improved model performance.
-   - Created new features to enhance predictive power.
+2. **Exploratory Data Analysis (EDA)**:
+   - Conducted comprehensive EDA to understand feature distributions, relationships, and class imbalances.
+   - Visualized key trends and patterns to guide preprocessing and modeling decisions.
 
-3. **Baseline Model Training**:
-   - Trained multiple machine learning models using default parameters.
+3. **Data Preprocessing**:
+   - Cleaned the dataset by handling missing values and encoding categorical variables.
+   - Scaled numerical features to ensure uniformity across different scales.
+   - Addressed class imbalance using oversampling techniques.
+
+4. **Model Training and Evaluation**:
+   - Trained multiple machine learning models, including Logistic Regression, Random Forest, Gradient Boosting, Support Vector Classifier, Multi-Layer Perceptron, and others.
    - Evaluated models using Accuracy, F1-Score, and ROC-AUC metrics.
-
-4. **Hyperparameter Tuning**:
-   - Optimized high-performing models such as Random Forest and Gradient Boosting.
-   - Used GridSearchCV for systematic hyperparameter exploration.
+   - Conducted hyperparameter tuning for key models to optimize their performance.
 
 5. **Model Comparison**:
-   - Compared tuned models to identify the best performer.
-   - Gradient Boosting achieved the highest ROC-AUC score (0.9994).
+   - Compared the performance of tuned models to select the best one for deployment.
 
-6. **Final Evaluation and Deployment Preparation**:
-   - Conducted final model validation on unseen data.
-   - Saved the best-performing model as a `.pkl` file for deployment.
+6. **Feature Importance Analysis**:
+   - Analyzed feature importance for the best-performing model to provide insights into key predictors.
+
+7. **Final Evaluation**:
+   - Validated the best model on unseen test data to confirm robustness and generalizability.
+
+8. **Deployment Preparation**:
+   - Saved the final model as a pickle file for easy deployment.
+   - Documented the workflow and results for reproducibility.
 
 ---
 
@@ -87,10 +92,10 @@ Follow these steps to reproduce the analysis and results:
 
 ```bash
 # Step 1: Clone the repository
-git clone <repository_url>
+git clone <https://github.com/Devin-Shrode/Estimation-of-Obesity-Levels>
 
 # Step 2: Navigate to the project directory
-cd obesity-level-prediction
+cd Estimation-of-Obesity-Levels
 
 # Step 3: Install the required libraries
 pip install -r requirements.txt
@@ -113,7 +118,7 @@ While the model performed well, future improvements could include:
 ---
 
 ## Acknowledgments
-- **Dataset**: The dataset was sourced from a publicly available repository.
+- **Dataset**: The dataset was sourced from the [UCI Machine Learning Repository](https://archive.ics.uci.edu/dataset/544/estimation+of+obesity+levels+based+on+eating+habits+and+physical+condition).
 - **Tools**: Analysis was performed using Python and libraries such as Pandas, Scikit-learn, and Matplotlib.
 - **Inspiration**: This project was inspired by the global effort to combat obesity and improve public health.
 
