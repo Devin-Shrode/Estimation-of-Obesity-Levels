@@ -125,7 +125,8 @@ While the model performed well, future improvements could include:
 ---
 
 ## Contact
-For questions or collaboration, please reach out at:
-- **Email**: devin.shrode@proton.me
-- **LinkedIn**: www.linkedin.com/in/DevinShrode
+For any questions or collaboration opportunities, reach out at:
+- **Email**: devin.shrode@proton.me  
+- **LinkedIn**: [linkedin.com/in/DevinShrode](https://www.linkedin.com/in/DevinShrode)  
+- **GitHub**: [github.com/Devin-Shrode/Wine-Quality](https://github.com/Devin-Shrode/Estimation-of-Obesity-Levels)  
 
